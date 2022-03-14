@@ -23,7 +23,7 @@ variables:
 
 java-build-and-test:
   # select the most appropriate image for your project
-  image: maven:3.8-openjdk-11
+  image: maven:3.8-openjdk-17
   stage: build
 
 
